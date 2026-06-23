@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Quizzes</title>
+  </head>
+  <body>
+    <section class="home4">
+        <h1 class="text-center p-5 bg-red text-light font-size-10vh">Study Quizzes</h1>
+    </section>
+    <br>
+    <br>
+    <br>
+
+  <div class="container-quiz">
+    <div class="screen active p-5 bg-red" id="start-screen">
+      <h1>Quiz Time!</h1>
+      <p class="text-light">Test your knowledge with these fun questions!</p>
+      <button id="start-btn">Choose Subject to Study</button>
+    </div>
+
+    <div class="screen p-5 bg-red" id="subject-screen">
+      <h1 class="text-light">Choose a Subject</h1>
+      <div class="subject-list d-flex flex-column" style="gap: 12px;">
+        <button class="subject-btn" data-subject="mathadvanced">Mathematics Advanced</button>
+        <button class="subject-btn" data-subject="mathextension">Mathematics Extension</button>
+        <button class="subject-btn" data-subject="chemistry">Chemistry</button>
+        <button class="subject-btn" data-subject="business">Business Studies</button>
+        <button class="subject-btn" data-subject="enterprise">Enterprise Computing</button>
+        <button class="subject-btn" data-subject="religion">SOR X</button>
+        <button class="subject-btn" data-subject="englishadv">English Advanced</button>
+      </div>
+    </div>
+
+    <div class="screen" id="quiz-screen">
+      <div class="quiz-header">
+        <h2 id="question-text">Question goes here</h2>
+        <div class="quiz-info">
+          <p>Question <span id="current-question">1</span> of <span id="total-questions">5</span></p>
+          <p>Score: <span id="score">0</span></p>
+        </div>
+      </div>
+      <div id="answers-container" class="answers-container"></div>
+      <div class="progress-bar">
+        <div id="progress" class="progress"></div>
+      </div>
+    </div>
+
+    <div class="screen" id="result-screen">
+      <h1>Quiz Results</h1>
+      <div class="result-info">
+        <p>You Scored <span id="final-score">0</span> out of <span id="max-score">5</span></p>
+        <div id="result-message">Good Job!</div>
+      </div>
+      <button id="restart-btn">Choose Another Subject</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
