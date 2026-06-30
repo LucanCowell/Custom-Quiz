@@ -9,3 +9,5 @@ In its base form it currently has personalised questions on the following subjec
 5. Math Extension I
 6. Studies of Religion X
 7. Enterprise Computing
+
+Each subject has 5 fully personalised questions. However with minor changes to the programming, there can be many more questions and is not limited to 5.
