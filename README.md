@@ -11,3 +11,5 @@ In its base form it currently has personalised questions on the following subjec
 7. Enterprise Computing
 
 Each subject has 5 fully personalised questions. However with minor changes to the programming, there can be many more questions and is not limited to 5.
+
+The user will also receive a score out of 5 (if still using 5 base questions) and will generate relevant feedback to the user.
