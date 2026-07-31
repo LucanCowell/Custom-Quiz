@@ -15,3 +15,5 @@ Each subject has 5 fully personalised questions. However with minor changes to t
 The user will also receive a score out of 5 (if still using 5 base questions) and will generate relevant feedback to the user.
 
 The CSS of this page aims to make the page interactive and intuitive to understand
+
+The JS of this page makes the questions interactive and allow the users to properly utilise the quiz, rather than it purely being decorational.
