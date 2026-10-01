@@ -17,3 +17,5 @@ The user will also receive a score out of 5 (if still using 5 base questions) an
 The CSS of this page aims to make the page interactive and intuitive to understand
 
 The JS of this page makes the questions interactive and allow the users to properly utilise the quiz, rather than it purely being decorational.
+
+A future improvement for this application is for the questions to be chosen randomly to ensure there is more content covered and that it is not a repetitive experience for the users.
